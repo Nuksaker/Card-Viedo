@@ -151,7 +151,7 @@ body {
 .modal-video-info {
   display: flex;
   justify-content: space-between;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   padding: 0 15px;
   margin-bottom: 15px;
 }
@@ -163,6 +163,7 @@ body {
 
 .modal-video-info .uploaded-time {
   color: #555;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 800px) {

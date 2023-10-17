@@ -3,7 +3,7 @@ video_thumbs.forEach((video_thumb) => {
     video_thumb.addEventListener("mouseover", function () {
         this.style.opacity = 1;
         this.play();
-        this.playbackRate = 2.0;
+        this.playbackRate = 1;
     });
 });
 
@@ -42,11 +42,3 @@ modal_closeBtns.forEach((modal_closeBtn) => {
         });
     });
 });
-
-video_modalScreens.forEach((video_modalScreen) => {
-    video_modalScreen.addEventListener("click", () => {
-        video_modalScreens.forEach((video_modalScreens) => {
-            video_modalScreens.classList.remove("active");
-        });
-    })
-})
